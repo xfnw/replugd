@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/iv_pixel" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_alignParentRight="true" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/pen" android:background="@drawable/eshare_ic_open" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <Button android:id="@+id/red" android:background="@drawable/eshare_ic_red_pen" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_toLeftOf="@+id/pen" android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/white" android:background="@drawable/eshare_ic_white_pen" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_toLeftOf="@+id/red" android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/black" android:background="@drawable/eshare_ic_black_pen" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_toLeftOf="@+id/white" android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/yello" android:background="@drawable/eshare_ic_yellow_pen" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_toLeftOf="@+id/black" android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/blue" android:background="@drawable/eshare_ic_blue_pen" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_toLeftOf="@+id/yello" android:layout_alignParentTop="true"/>
+    <Button android:id="@+id/change_color" android:background="@drawable/eshare_ic_add_pen" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="5dp" android:layout_below="@+id/pen" android:layout_alignParentRight="true"/>
+    <Button android:id="@+id/save" android:background="@drawable/eshare_ic_save_image" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginTop="5dp" android:layout_below="@+id/change_color" android:layout_alignParentRight="true"/>
+</RelativeLayout>

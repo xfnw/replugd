@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#18181a" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ecloud.eshare.view.FixedLayout android:id="@+id/vertical_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:layout_percent="6">
+            <RelativeLayout android:gravity="center" android:orientation="horizontal" android:background="#28282a" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/iv_air_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_light_selector" android:layout_alignParentLeft="true"/>
+                <TextView android:textSize="18dp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/remote_tv_air_mouse"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:layout_percent="6.5">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#28282a" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textColor="#69696a" android:id="@+id/tiptext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_10dp" android:text="@string/tv_mouse_sensitivity"/>
+                <SeekBar android:id="@+id/seekfactor" android:layout_width="match_parent" android:layout_height="15dp" android:layout_margin="5dp" android:max="100" android:thumb="@null" android:layout_below="@+id/tiptext" android:layout_centerInParent="true" style="@style/progressBarHorizontal_color"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@+id/full_touchPad_mouse" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_percent="65"/>
+        <include app:layout_percent="10" layout="@layout/vol_layout"/>
+        <include app:layout_percent="12.5" layout="@layout/airmouse_subview_bottom_buttons"/>
+    </com.ecloud.eshare.view.FixedLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tabhost" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/mouse_id" android:visibility="gone" layout="@layout/mouse_layout"/>
+    <include android:id="@+id/touch_id" android:visibility="gone" layout="@layout/slide_layout"/>
+    <include android:id="@+id/keys_id" android:visibility="gone" layout="@layout/keys_layout"/>
+    <include android:id="@+id/apps_id" android:visibility="gone" layout="@layout/apps_layout"/>
+</FrameLayout>

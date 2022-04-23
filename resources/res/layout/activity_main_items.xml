@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rl_main_con_devs" android:background="@color/c_F4F6F6" android:layout_width="match_parent" android:layout_height="@dimen/size_50dp">
+        <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/tv_main_already_con" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_16dp" android:text="@string/main_already_con" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/size_5dp" android:layout_toRightOf="@+id/tv_main_already_con">
+            <TextView android:textSize="@dimen/size_16sp" android:textColor="@color/c_333333" android:id="@+id/tv_main_con_server_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/size_10sp" android:textColor="@color/c_bcbcbc" android:id="@+id/tv_main_con_server_ip" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageButton android:id="@+id/tv_main_disconnect" android:background="@drawable/ic_disconnect_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/size_5dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <include android:id="@+id/vg_main_functions" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/rl_main_con_devs" layout="@layout/content_main_functions"/>
+    <include android:id="@+id/vg_main_mirror_manage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/rl_main_con_devs" layout="@layout/content_mirror_manage"/>
+</RelativeLayout>

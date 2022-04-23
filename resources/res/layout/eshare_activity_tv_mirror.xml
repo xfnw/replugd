@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/eshare_rl_tv_mirror" android:background="#0000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/eshare_iv_tv_mirror" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <ImageButton android:id="@+id/eshare_ib_tv_mirror_out" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:src="@drawable/eshare_ic_out" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/eshare_ll_tv_mirror_tools" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageButton android:id="@+id/eshare_ib_tv_mirror_in" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eshare_ic_in"/>
+        <ImageButton android:id="@+id/eshare_ib_tv_mirror_close" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:src="@drawable/eshare_ic_closed"/>
+        <ImageButton android:id="@+id/eshare_ib_tv_mirror_home" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:src="@drawable/eshare_ic_home"/>
+        <ImageButton android:id="@+id/eshare_ib_tv_mirror_back" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:src="@drawable/eshare_ic_back"/>
+    </LinearLayout>
+</RelativeLayout>

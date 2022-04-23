@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#181820" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ecloud.eshare.view.FixedLayout android:id="@+id/vertical_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <include app:layout_percent="6" layout="@layout/title_layout"/>
+        <include app:layout_percent="63.5" layout="@layout/menu_tabhost_layout"/>
+        <include app:layout_percent="9" layout="@layout/menu_tabs"/>
+        <include app:layout_percent="9" layout="@layout/vol_layout"/>
+        <include app:layout_percent="12.5" layout="@layout/bottom_buttons"/>
+    </com.ecloud.eshare.view.FixedLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/bg_semi_transparent" android:padding="@dimen/dialog_penset_padding" android:layout_width="@dimen/dialog_penset_width" android:layout_height="@dimen/dialog_penset_height">
+    <view android:id="@+id/bsb_back_size_01" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:buttonSize="2px" class="com.ecloud.eshare.view.BackColorButton$BackSizeButton"/>
+    <ImageView android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <view android:id="@+id/bsb_back_size_02" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:buttonSize="4px" class="com.ecloud.eshare.view.BackColorButton$BackSizeButton"/>
+    <ImageView android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <view android:id="@+id/bsb_back_size_03" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:buttonSize="6px" class="com.ecloud.eshare.view.BackColorButton$BackSizeButton"/>
+    <ImageView android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <view android:id="@+id/bsb_back_size_04" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:buttonSize="8px" class="com.ecloud.eshare.view.BackColorButton$BackSizeButton"/>
+    <ImageView android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_01" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ff000000"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_02" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ffafb6bb"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_03" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ffffffff"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_04" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ff2f85cf"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_06" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ff8743a5"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_08" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ffebb826"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_11" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ff0000"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_14" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#ff27b08a"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_18" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#fffb9aab"/>
+    <com.ecloud.eshare.view.BackColorButton android:id="@+id/bcb_back_color_19" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="1px" android:layout_weight="1" app:buttonColor="#fffb0075"/>
+</LinearLayout>

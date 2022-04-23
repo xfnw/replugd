@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="app_name">Unplug\'d</string>
+    <string name="eshare_mirror_description_start">點擊右側按鈕可打開無線傳屏</string>
+    <string name="eshare_mirror_description_stop">點擊右側按鈕可關閉無線傳屏</string>
+    <string name="eshare_mirror_open_close">無線傳屏</string>
+    <string name="go_permission">去授權</string>
+    <string name="main_title">Unplug\'d</string>
+    <string name="peimission_speaker">麥克風</string>
+    <string name="permission_audio_record_rationale">需授予Unplug\'d錄音權限，以便您在使用傳屏功能時可以將手機聲音傳到大屏（注：如果您遇到部分App的聲音無法傳到大屏，可聯繫該App的開發者，請他們允許聲音被錄製）</string>
+    <string name="permission_camera">相機</string>
+    <string name="permission_localtion">位置資訊</string>
+    <string name="permission_save">存儲</string>
+    <string name="permission_title">若要使用此功能，請前往應用許可權設置介面開啟%s許可權</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="settings_about_statement">BOXLIGHT, Inc.\nwww.boxlight.com</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

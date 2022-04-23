@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="31" android:versionName="v2.1.1116" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.boxlight.unplugd" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <application android:theme="@style/AppTheme_NoActionBar" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.ecloud.eshare.CustomApplication" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true" android:networkSecurityConfig="@xml/network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <activity android:name="com.ecloud.eshare.activity.WriteNFCTextActivity" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+        <activity android:name="com.ecloud.eshare.activity.ScanConnectActivity"/>
+        <activity android:theme="@style/CustomDialogDim" android:name="com.ecloud.eshare.activity.WirelessStorageSettingActivity"/>
+        <activity android:theme="@style/BlackActTheme" android:name="com.ecloud.eshare.activity.AirMouseActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/BlackActTheme" android:name="com.ecloud.eshare.activity.KeyboardActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden" android:windowSoftInputMode="adjustResize|stateAlwaysVisible"/>
+        <activity android:theme="@style/BlackActTheme" android:name="com.ecloud.eshare.activity.RemoteControlActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ecloud.eshare.activity.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.ecloud.eshare.activity.QRCaptureActivity"/>
+        <activity android:name="com.ecloud.eshare.activity.MainActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/com.ecloud.eshare"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="application/txt"/>
+                <data android:mimeType="application/pdf"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+            </intent-filter>
+            <intent-filter android:scheme="http">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="text/*"/>
+                <data android:mimeType="application/txt"/>
+                <data android:mimeType="application/pdf"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/dialogstyle" android:name="com.ecloud.eshare.activity.ProFileActivity" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="com.ecloud.eshare.activity.MediaActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale"/>
+        <activity android:name="com.ecloud.eshare.activity.PlayerActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale"/>
+        <activity android:name="com.ecloud.eshare.activity.PhotoActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale"/>
+        <activity android:name="com.ecloud.eshare.activity.DocumentActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale"/>
+        <activity android:name="com.ecloud.eshare.activity.CameraActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="screenSize|orientation"/>
+        <activity android:theme="@style/AppTheme_FullScreen" android:name="com.ecloud.eshare.activity.ImageActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale"/>
+        <activity android:name="com.ecloud.eshare.activity.SettingActivity" android:screenOrientation="portrait" android:configChanges="fontScale|layoutDirection|locale"/>
+        <activity android:theme="@style/AppTheme_FullScreen" android:name="com.ecloud.eshare.activity.MirrorNoteActivity" android:launchMode="singleTask" android:configChanges="fontScale|layoutDirection|locale"/>
+        <service android:name="com.ecloud.eshare.service.MediaService" android:exported="false"/>
+        <service android:name="com.ecloud.eshare.service.FloatingService"/>
+        <service android:name="com.eshare.mirror.MirrorScreenCaptureService" android:exported="true" android:foregroundServiceType="mediaProjection"/>
+        <service android:name="com.ecloud.eshare.util.MsgPassService" android:exported="false"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.boxlight.unplugd.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <meta-data android:name="eshare_app_key" android:value="pSzWg6wdOunurwgTBDpF5d2xgx5owzgZ"/>
+        <activity android:theme="@style/EShare_ThemeFullScreen" android:name="com.eshare.lib.TVMirrorActivity" android:launchMode="singleInstance" android:screenOrientation="landscape"/>
+        <provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.boxlight.unplugd.com.squareup.picasso"/>
+    </application>
+</manifest>

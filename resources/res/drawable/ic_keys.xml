@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/remote_normal" android:maxLevel="0"/>
+    <item android:drawable="@drawable/ic_remote_up_pressed" android:maxLevel="1"/>
+    <item android:drawable="@drawable/ic_remote_down_pressed" android:maxLevel="2"/>
+    <item android:drawable="@drawable/ic_remote_left_pressed" android:maxLevel="3"/>
+    <item android:drawable="@drawable/ic_remote_right_pressed" android:maxLevel="4"/>
+    <item android:drawable="@drawable/remote_ok_pressed" android:maxLevel="5"/>
+    <item android:drawable="@drawable/remote_customize_up" android:maxLevel="6"/>
+    <item android:drawable="@drawable/remote_pg_up" android:maxLevel="7"/>
+    <item android:drawable="@drawable/remote_customize_down" android:maxLevel="8"/>
+    <item android:drawable="@drawable/remote_pg_down" android:maxLevel="9"/>
+</level-list>

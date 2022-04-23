@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_20dp" android:text="@string/setting_rename_message"/>
+    <EditText android:id="@+id/et_rename" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_20dp" android:layout_marginTop="5dp" android:hint="@string/setting_rename_hint" android:singleLine="true" android:maxLength="13" android:imeOptions="actionGo"/>
+    <TextView android:textColor="@color/colorAccent" android:gravity="center" android:id="@+id/tv_dialog_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/input_empty"/>
+</LinearLayout>

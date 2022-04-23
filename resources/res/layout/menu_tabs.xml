@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/tabs" android:background="#1f1f21" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <Button android:gravity="center" android:id="@+id/shubiao" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/remote_mouse_button" android:layout_weight="1" style="@style/menuText"/>
+    <Button android:gravity="center" android:id="@+id/chumo" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/remote_slide_button" android:layout_weight="1" style="@style/menuText"/>
+    <Button android:gravity="center" android:id="@+id/anjian" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/remote_keyboard_button" android:layout_weight="1" style="@style/menuText"/>
+    <Button android:gravity="center" android:id="@+id/app" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/remote_apps_button" android:layout_weight="1" style="@style/menuText"/>
+</LinearLayout>

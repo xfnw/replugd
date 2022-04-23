@@ -1,0 +1,16 @@
+package com.ecloud.eshare.util;
+
+import android.text.method.ReplacementTransformationMethod;
+
+/* loaded from: classes.dex */
+public class v extends ReplacementTransformationMethod {
+    @Override // android.text.method.ReplacementTransformationMethod
+    protected char[] getOriginal() {
+        return new char[]{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+    }
+
+    @Override // android.text.method.ReplacementTransformationMethod
+    protected char[] getReplacement() {
+        return new char[]{'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+    }
+}

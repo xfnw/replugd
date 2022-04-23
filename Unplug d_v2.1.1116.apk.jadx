@@ -1,0 +1,1167 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "../../Downloads/Unplug d_vv2.1.1116_apkpure.com.apk"
+  ],
+  "treeExpansions": [
+    [
+      "a",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "lib",
+      "eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "j",
+      "lib",
+      "eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "www",
+      "lib",
+      "eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "ecloud.eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "f",
+      "ecloud.eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "activity",
+      "ecloud.eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "bean",
+      "ecloud.eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "e",
+      "ecloud.eshare",
+      "com",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "b",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "a.a",
+      "b",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "b.a",
+      "a",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "a",
+      "b.a",
+      "a",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "d",
+      "a",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "b",
+      "b",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ],
+    [
+      "a",
+      "b",
+      "b",
+      "Source code",
+      "Unplug d_vv2.1.1116_apkpure.com.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "a.a.a"
+        },
+        "newName": "ActionBar"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c.a.a.a"
+        },
+        "newName": "themeSettings"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c.a.a.b"
+        },
+        "newName": "themeColors"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c.a.a.c"
+        },
+        "newName": "actionbarSettings"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.b"
+        },
+        "newName": "stream"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.c"
+        },
+        "newName": "bytestream"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.d"
+        },
+        "newName": "minetype"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.e"
+        },
+        "newName": "wifi"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.a"
+        },
+        "newName": "delete"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.b"
+        },
+        "newName": "page"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.c"
+        },
+        "newName": "httpStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.d"
+        },
+        "newName": "mimetype"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.e"
+        },
+        "newName": "processRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.e$a"
+        },
+        "newName": "filterName"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.e$b"
+        },
+        "newName": "fileBuffer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.e$c"
+        },
+        "newName": "filterName"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.f"
+        },
+        "newName": "httpd"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.f$a"
+        },
+        "newName": "listener"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.g"
+        },
+        "newName": "httpHeaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.eshare.lib.j.h"
+        },
+        "newName": "httpResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a.a.a",
+          "shortId": "listMenuViewStyle:I"
+        },
+        "newName": "listMenuViewStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b.a.a.a$a",
+          "shortId": "b:Z"
+        },
+        "newName": "paddingCheck"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b.b.a.n.b",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "absPath"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b.b.a.n.b",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "eshareDir"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b.b.a.n.b",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "esharecache1080"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b.b.a.n.b",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "esharecache720"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b.b.a.n.e",
+          "shortId": "a:I"
+        },
+        "newName": "branding"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "A0:Landroid/widget/ImageView;"
+        },
+        "newName": "imageview"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "B0:Landroid/widget/ImageView;"
+        },
+        "newName": "otherimageview"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "C0:Landroid/view/ViewGroup;"
+        },
+        "newName": "viewgroup"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "D0:Landroid/view/ViewGroup;"
+        },
+        "newName": "otherviewgroup"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "M:Landroid/widget/SeekBar;"
+        },
+        "newName": "seekbar"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "N:Ljava/util/concurrent/ExecutorService;"
+        },
+        "newName": "executerService"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity$k",
+          "shortId": "b:I"
+        },
+        "newName": "keycode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.TVMirrorActivity",
+          "shortId": "f:Landroid/widget/ImageButton;"
+        },
+        "newName": "imageButton"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.TVMirrorActivity",
+          "shortId": "g:Landroid/widget/LinearLayout;"
+        },
+        "newName": "layout"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.TVMirrorActivity",
+          "shortId": "k:Ljava/net/DatagramSocket;"
+        },
+        "newName": "socket"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.TVMirrorActivity",
+          "shortId": "l:J"
+        },
+        "newName": "timer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.TVMirrorActivity",
+          "shortId": "n:Ljava/util/concurrent/BlockingQueue;"
+        },
+        "newName": "blockingQueue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.TVMirrorActivity",
+          "shortId": "o:Landroid/graphics/Bitmap;"
+        },
+        "newName": "bitmap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.c",
+          "shortId": "a:Ljava/util/Map;"
+        },
+        "newName": "httpStatuses"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "b:Ljava/net/Socket;"
+        },
+        "newName": "socket"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "c:Ljava/io/File;"
+        },
+        "newName": "file"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "d:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "path"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.e$b",
+          "shortId": "b:J"
+        },
+        "newName": "readable"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.e$d",
+          "shortId": "b:J"
+        },
+        "newName": "readable"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.f",
+          "shortId": "a:Z"
+        },
+        "newName": "active"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.f",
+          "shortId": "b:I"
+        },
+        "newName": "port"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.f",
+          "shortId": "c:Ljava/net/ServerSocket;"
+        },
+        "newName": "serverSocket"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.f",
+          "shortId": "e:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "token"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "c:Ljava/util/Map;"
+        },
+        "newName": "requestHeaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "d:Ljava/util/Map;"
+        },
+        "newName": "responseHeaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a:I"
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "version"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "c:Ljava/util/Map;"
+        },
+        "newName": "headers"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "d:Ljava/io/InputStream;"
+        },
+        "newName": "inStream"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "e:J"
+        },
+        "newName": "length"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "f:Ljava/text/SimpleDateFormat;"
+        },
+        "newName": "timestamp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b.b.a.n.e",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "switchBranding"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b.b.a.n.e",
+          "shortId": "a(Ljava/net/DatagramSocket;Ljava/lang/String;)V"
+        },
+        "newName": "getScreenCapture"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b.b.a.n.e",
+          "shortId": "a(Ljava/net/DatagramSocket;Ljava/net/InetAddress;)V"
+        },
+        "newName": "scan"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "d(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "keycode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "d(I)V"
+        },
+        "newName": "sendKeycode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.ecloud.eshare.activity.RemoteControlActivity",
+          "shortId": "onClick(Landroid/view/View;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262160
+        },
+        "newName": "keycode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.a",
+          "shortId": "b(Ljava/io/File;)V"
+        },
+        "newName": "compressFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.a",
+          "shortId": "b(Ljava/io/File;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "resultPath"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.b",
+          "shortId": "a(Lcom/eshare/lib/c;)V"
+        },
+        "newName": "setstream"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.d",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "convertMinetype"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.e",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "getLanIp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.i",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "unicode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.i",
+          "shortId": "b(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "urlencoder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.a",
+          "shortId": "a(Ljava/io/File;)Z"
+        },
+        "newName": "deleteDirectory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.a",
+          "shortId": "a(Ljava/lang/String;)Z"
+        },
+        "newName": "deleteFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.b",
+          "shortId": "a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/StringBuilder;ZZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "content"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.b",
+          "shortId": "a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/StringBuilder;ZZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "enableUploadForm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.b",
+          "shortId": "a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/StringBuilder;ZZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "chineseMode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.b",
+          "shortId": "a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/StringBuilder;ZZZ)V"
+        },
+        "newName": "generate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.b",
+          "shortId": "a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/StringBuilder;ZZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "title"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.b",
+          "shortId": "a(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/StringBuilder;ZZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "iphonecompat"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.c",
+          "shortId": "a(ILjava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "genHttpStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.d",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "convertMinetype"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Ljava/net/Socket;Ljava/io/File;)V"
+        },
+        "newName": "onm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "a(ILjava/lang/String;)V"
+        },
+        "newName": "httpReply"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "a(Lcom/eshare/lib/j/g;)Lcom/eshare/lib/j/h;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "httpheaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "a(Lcom/eshare/lib/j/h;Z)V"
+        },
+        "newName": "makeHeaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "a(Ljava/io/BufferedReader;Lcom/eshare/lib/j/g;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "httpheads"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "a(Ljava/lang/String;)[B"
+        },
+        "newName": "unicode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;[BII)Ljava/lang/String;"
+        },
+        "newName": "uploadHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "b(Lcom/eshare/lib/j/g;Ljava/io/File;Z)Lcom/eshare/lib/j/h;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "b(Lcom/eshare/lib/j/g;Ljava/io/File;Z)Lcom/eshare/lib/j/h;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65548
+        },
+        "newName": "fbuff"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "b(Lcom/eshare/lib/j/g;Ljava/io/File;Z)Lcom/eshare/lib/j/h;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393220
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "b(Lcom/eshare/lib/j/g;Ljava/io/File;Z)Lcom/eshare/lib/j/h;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1507328
+        },
+        "newName": "e"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "b(Lcom/eshare/lib/j/g;Ljava/io/File;Z)Lcom/eshare/lib/j/h;"
+        },
+        "newName": "uploadFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "c(Lcom/eshare/lib/j/g;)Lcom/eshare/lib/j/h;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "url"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e",
+          "shortId": "d(Lcom/eshare/lib/j/g;)Lcom/eshare/lib/j/h;"
+        },
+        "newName": "response504"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.e$b",
+          "shortId": "\u003cinit\u003e(Lcom/eshare/lib/j/e;Ljava/io/File;J)V"
+        },
+        "newName": "buffer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.f",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;)V"
+        },
+        "newName": "s"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.f",
+          "shortId": "a()I"
+        },
+        "newName": "getPort"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "getContentLength"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "b(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "header"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "b(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "setHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "b(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "c()Ljava/lang/String;"
+        },
+        "newName": "getContentType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "d(Ljava/lang/String;)V"
+        },
+        "newName": "ingestToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.g",
+          "shortId": "f()Ljava/lang/String;"
+        },
+        "newName": "getToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "newName": "h"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a()Ljava/io/InputStream;"
+        },
+        "newName": "getStream"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a(I)V"
+        },
+        "newName": "setStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a(Ljava/io/InputStream;J)V"
+        },
+        "newName": "setStream"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a(Ljava/lang/String;)V"
+        },
+        "newName": "setContentType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "setHeader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a([B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "inputStream"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "a([B)V"
+        },
+        "newName": "setContents"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "b()J"
+        },
+        "newName": "getLength"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "c()Ljava/lang/String;"
+        },
+        "newName": "setTimestamp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "d()Ljava/util/Map;"
+        },
+        "newName": "getHeaders"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "getVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.eshare.lib.j.h",
+          "shortId": "f()I"
+        },
+        "newName": "getStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "com.eshare.lib.j",
+          "shortId": ""
+        },
+        "newName": "www"
+      }
+    ]
+  },
+  "openTabs": [],
+  "activeTab": -1
+}

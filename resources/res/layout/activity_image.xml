@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/vg_image_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/size_50dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ivLeft" android:paddingRight="@dimen/size_14dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/size_5dp" android:src="@drawable/ic_back_dark_selector" android:layout_alignParentLeft="true" style="@style/OnClick"/>
+        <TextView android:textSize="@dimen/size_18sp" android:textColor="@color/black" android:ellipsize="middle" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="70dp" android:text="@string/app_name" android:singleLine="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_image_bottom" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="45dp" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@+id/ibtn_photo_play_pause" android:background="@drawable/imageplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <ImageButton android:id="@+id/ibtn_photo_rotate_left" android:background="@drawable/image_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35dp" android:layout_toLeftOf="@+id/ibtn_photo_play_pause" android:layout_centerVertical="true"/>
+        <ImageButton android:id="@+id/ibtn_photo_rotate_right" android:background="@drawable/image_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:layout_toRightOf="@+id/ibtn_photo_play_pause" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/vp_image" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/rl_image_bottom" android:layout_below="@+id/vg_image_toolbar"/>
+</RelativeLayout>

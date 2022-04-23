@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ecloud.eshare.view.ProgressCircle android:id="@+id/pc_upload" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginTop="20dp"/>
+    <TextView android:textSize="16sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/document_loading"/>
+    <TextView android:textSize="14sp" android:textColor="@drawable/color_cancel" android:gravity="center" android:id="@+id/tv_document_cancel" android:background="@drawable/ic_document_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42dp" android:text="@string/document_cancel"/>
+</LinearLayout>

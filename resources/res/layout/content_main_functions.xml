@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rl_main_cast_start" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/rl_main_mirror" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="@dimen/size_18sp" android:textColor="@color/c_9e9e9e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_cast_now" android:drawableTop="@drawable/ic_cast_selector" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_main_mirror" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/rl_main_control" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/rl_main_cast_start">
+        <TextView android:textSize="@dimen/size_18sp" android:textColor="@color/c_9e9e9e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_tvmirror_now" android:drawableTop="@drawable/ic_tvmirror_selector" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_main_control" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/tv_main_version" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/rl_main_mirror">
+        <TextView android:textSize="@dimen/size_18sp" android:textColor="@color/c_9e9e9e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_item_control" android:drawableTop="@drawable/ic_control" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textColor="@color/c_9e9e9e" android:id="@+id/tv_main_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_version" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/rl_main_control" app:layout_constraintVertical_bias="0.9"/>
+    <RelativeLayout android:id="@+id/rl_main_photo" android:visibility="@integer/main_pics_visibility" android:layout_marginLeft="@dimen/size_18dp" android:layout_marginBottom="@dimen/size_30dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toLeftOf="@+id/rl_main_media" style="@style/MainItem_RelativeLayout">
+        <ImageView android:id="@+id/iv_main_photo" android:src="@drawable/ic_photo" style="@style/MainItem_ImageView"/>
+        <TextView android:text="@string/main_item_photo" android:layout_below="@+id/iv_main_photo" style="@style/MainItem_TextView"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_main_media" android:visibility="@integer/main_media_visibility" android:layout_marginBottom="@dimen/size_30dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toRightOf="@+id/rl_main_photo" app:layout_constraintRight_toLeftOf="@+id/rl_main_document" style="@style/MainItem_RelativeLayout">
+        <com.ecloud.eshare.view.CircleBar android:id="@+id/cb_main_media" android:visibility="invisible" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginTop="26dp" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/iv_main_media" android:src="@drawable/ic_media" style="@style/MainItem_ImageView"/>
+        <TextView android:text="@string/main_item_media" android:layout_below="@+id/iv_main_media" style="@style/MainItem_TextView"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_main_document" android:visibility="@integer/main_folder_visibility" android:layout_marginBottom="@dimen/size_30dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toRightOf="@+id/rl_main_media" app:layout_constraintRight_toLeftOf="@+id/rl_main_camera" style="@style/MainItem_RelativeLayout">
+        <ImageView android:id="@+id/iv_main_document" android:src="@drawable/ic_document" style="@style/MainItem_ImageView"/>
+        <TextView android:text="@string/main_item_document" android:layout_below="@+id/iv_main_document" style="@style/MainItem_TextView"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_main_camera" android:visibility="@integer/main_camera_visibility" android:layout_marginBottom="@dimen/size_30dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toRightOf="@+id/rl_main_document" style="@style/MainItem_RelativeLayout">
+        <ImageView android:id="@+id/iv_main_camera" android:src="@drawable/ic_camera" style="@style/MainItem_ImageView"/>
+        <TextView android:text="@string/main_item_camera" android:layout_below="@+id/iv_main_camera" style="@style/MainItem_TextView"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

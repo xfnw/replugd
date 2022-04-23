@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/slide_layout" android:background="#171719" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ecloud.eshare.view.TouchView android:id="@+id/touch_pad" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/image_hand" android:scaleType="center" android:layout_centerInParent="true"/>
+</RelativeLayout>

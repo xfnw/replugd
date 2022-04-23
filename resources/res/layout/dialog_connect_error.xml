@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#11ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/free_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_30dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_failed"/>
+            <TextView android:textSize="@dimen/size_18dp" android:textStyle="bold" android:textColor="@android:color/primary_text_light" android:gravity="center" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_10dp" android:text="@string/dialog_connect_fail"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_20dp_error" android:layout_marginTop="@dimen/size_30dp" android:layout_marginRight="@dimen/size_20dp_error">
+            <TextView android:textSize="@dimen/size_18dp" android:textColor="@android:color/primary_text_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_confirm"/>
+            <TextView android:textSize="@dimen/size_18dp" android:textColor="@android:color/primary_text_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_tv_tip"/>
+            <TextView android:textSize="@dimen/size_18dp" android:textColor="@android:color/primary_text_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_tv_tip2"/>
+            <TextView android:textSize="@dimen/size_18dp" android:textColor="@android:color/primary_text_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_tv_tip3"/>
+        </LinearLayout>
+        <View android:background="#e4e4e4" android:layout_width="match_parent" android:layout_height="@dimen/size_1dp" android:layout_marginTop="@dimen/size_20dp"/>
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#38adff" android:gravity="center" android:id="@+id/yes" android:layout_width="match_parent" android:layout_height="@dimen/size_36dp" android:text="@string/dialog_tv_know" android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+</RelativeLayout>

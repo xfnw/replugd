@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/keyboard_layout" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ecloud.eshare.view.TouchView android:id="@+id/touchPad" android:background="#18181a" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/touch_pad_arrow" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_arrow" android:layout_centerInParent="true" android:layout_centerHorizontal="true"/>
+    <com.ecloud.eshare.view.FadingTextView android:textSize="40dp" android:textStyle="bold" android:textColor="#e6e6fa" android:ellipsize="start" android:id="@+id/text_feedback_chars" android:background="@android:color/transparent" android:padding="20dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:cursorVisible="false" android:lines="1" android:scrollHorizontally="false" android:singleLine="true" android:layout_centerInParent="true" android:imeOptions="actionGo"/>
+</RelativeLayout>

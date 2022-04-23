@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_item_audio" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/size_60dp">
+    <ImageView android:id="@+id/iv_item_audio_type" android:background="@drawable/ic_file_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/size_10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="16sp" android:textColor="@color/c_333333" android:id="@+id/tv_item_audio_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:layout_toRightOf="@+id/iv_item_audio_type" android:layout_centerVertical="true"/>
+</RelativeLayout>

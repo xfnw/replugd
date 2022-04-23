@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_camera2" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <com.ecloud.eshare.view.AutoFitTextureView android:gravity="center" android:id="@+id/sfv_camera2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <TextView android:textSize="24sp" android:textColor="@color/white" android:id="@+id/tv_camera2_zoom" android:padding="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/iv_camera2_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="12dp" android:src="@drawable/ic_camera_close" android:layout_alignParentLeft="true"/>
+    <ImageView android:id="@+id/iv_camera2_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:src="@drawable/light_open" android:scaleType="centerInside" android:layout_toLeftOf="@+id/switchover"/>
+    <ImageView android:id="@+id/iv_camera2_switchover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="6dp" android:src="@drawable/switch_camera" android:scaleType="centerInside" android:layout_alignParentRight="true"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="55dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_camera_tips"/>
+        <ImageView android:id="@+id/iv_camera2_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:src="@drawable/btn_new_shutter" android:scaleType="centerInside"/>
+    </LinearLayout>
+</RelativeLayout>
