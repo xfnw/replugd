@@ -1,4 +1,5 @@
 # replugd
 
-the Unplug'd android app, partially reverse engineered
+the Unplug'd android app for controlling boxlight smart
+boards, partially reverse engineered
 
