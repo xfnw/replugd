@@ -134,9 +134,9 @@ function popkeycode(keycodes)
 	</div><!-- /header -->
 
 	<div data-role="content" class="ui-grid-b">
-    <div class="ui-block-a"><a href="javascript:popkeycode([82,66,22,22,66]);" data-role="button" data-theme="c" >HDMI1</a></div>
-    <div class="ui-block-b"><a href="javascript:popkeycode([82,66,22,22,22,22,22,66]);" data-role="button" data-theme="c" >VGA</a></div>
-    <div class="ui-block-c"><a href="javascript:popkeycode([82,66,22,66]);" data-role="button" data-theme="c" >Android</a></div>
+    <div class="ui-block-a"><a href="javascript:popkeycode([82,66,66,66,22,66]);" data-role="button" data-theme="c" >HDMI1</a></div>
+    <div class="ui-block-b"><a href="javascript:popkeycode([82,66,66,66,22,22,22,22,22,66]);" data-role="button" data-theme="c" >VGA</a></div>
+    <div class="ui-block-c"><a href="javascript:popkeycode([82,66,66,66,66]);" data-role="button" data-theme="c" >Android</a></div>
 <details><summary>fun stuff</summary>
 	<div class="ui-block-a"><a href="javascript:sendKeycode(3);" data-role="button" data-theme="c" >Home</a></div>
 	<div class="ui-block-b"><a href="javascript:sendKeycode(4);" data-role="button" data-theme="c" >Return</a></div>	 
